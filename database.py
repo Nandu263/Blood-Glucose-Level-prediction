@@ -16,7 +16,7 @@ def save_data(data):
     cursor = conn.cursor()
 
     query = """
-    INSERT INTO records (name, age, glucose, bmi, status)
+    INSERT INTO records (name, age, glucose, bmi, result)
     VALUES (%s, %s, %s, %s, %s)
     """
 
